@@ -1,0 +1,72 @@
+body {
+    font-family: 'Monserrat', sans-serif;
+}
+
+header{
+    background: #f8f9fc;
+    padding: 20px 0px; /* top y bottom = 20; bordes = 0px */
+}
+
+.encabezado {
+    width: 940px;  
+    position: relative; 
+    margin: 0px auto;  
+}
+
+.titulo-ppal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0px 0px 1em;
+    clear: left;
+    text-shadow: 10px 10px 20px #6b9671;
+}
+
+.main {
+    width: 940px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.input-texto {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+}
+.botones {
+    width: 70%;
+    margin-top: 220px;
+    margin-left: 100px;
+    padding: 5px 50px;   
+    font-size: 15px;
+    font-weight: bold;
+    color: #f5ecec;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mensaje {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 110px;
+    background-image: url(../images/figura.png);
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 250px;
+}
+
+.btn-copiar {
+    margin-top: 16px;
+    margin-left: 215px;
+}
+
+footer {
+    text-align: center;
+    background: #f8f9fc;
+    padding: 10px;
+    font-size: 8px;
+    font-weight: bold;
+}
